@@ -1,0 +1,33 @@
+1. NITRO-D
+	LIBRARY-25
+        CODING-WORKSPACE
+        VSCODE-INSTALL
+        DOC-ARCHIVE-I     ---Backed-Up
+	LEARNING-COURSE-25
+        INSTALLED-GAMES
+2. NITRO-E
+	CODING_ARCHIVE
+        BIOHAZARD
+        IELTS-PTE-ENGLISH
+	SOFTWARE-VOL-I    ---Backed-Up
+        MUSIC-VOL-I       ---Backed-Up
+        TORRENT-DOWNLOAD
+3. NITRO-F
+       MOVIES-VOL-I       ---Backed-Up
+       SOFTWARE-VOL-II    ---Backed-Up
+       MUSIC-VOL-II       ---Backed-Up
+       DOC-ARCHIVE-II     ---Backed-Up
+
+4. TERMINATOR-2
+       BACKUP-GAMES
+       BACKUP-MOVIES-VOL-I    --yes
+       BACKUP-PYTHON-TUTORIAL
+       BACKUP-DOC-ARCHIVE-I   --yes
+       MUSIC-VOL-I            --yes
+5. TERMINATOR-3
+         BACKUP-PHOTOS        --Yes
+         BACKUP-SOFT-VOL-I    --yes
+         BACKUP-COURSES
+         BACKUP-WALLPAPER
+         BACKUP-MOVIES-VOL-II  --yes
+	 BACKUP-DOC-ARCHIVE-II --yes
