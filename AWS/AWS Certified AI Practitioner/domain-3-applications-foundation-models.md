@@ -1,4 +1,66 @@
-# ...existing code...
-![AIF-C01 Roadmap Page 13](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_013.jpg)
-![AIF-C01 Roadmap Page 14](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_014.jpg)
-# ...existing code...
+## Domain 3: Applications of Foundation Models
+
+### Task Statement 3.1: Design considerations for foundation model applications
+- Criteria for pre-trained models (cost, modality, latency, multi-lingual, size, complexity, customization, input/output length)
+  - [How to Choose the Right Pre-trained AI Model for Your Application](http://theonetechnologies.com/blog/post/how-to-choose-the-right-pre-trained-ai-model-for-your-application)
+  - [AWS SageMaker Built-in Algorithms](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
+  - [AWS Well-Architected ML Sustainability](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlsus-02.html)
+- Inference parameters (temperature, input/output length)
+  - [Bedrock Inference Parameters](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-parameters.html)
+  - [Understanding the Controllable Parameters to Run Inference](https://medium.com/@developer.yasir.pk/understanding-the-controllable-parameters-to-run-inference-your-large-language-model-30643bb46434)
+  - [Discover the 3 Key Inference Parameters](https://wildebit.com/discover-the-3-key-inference-parameters-and-how-to-set-them-up/)
+  - [Configuration Hyperparameters (Learn Prompting)](https://learnprompting.org/docs/intermediate/configuration_hyperparameters?srsltid=AfmBOoq0OaTm3txlLMO6gb4iBOgWn-9u1PNopN49fhdQJTCMGgnwe7YD)
+  - [Mastering Temperature and Top-p in ChatGPT API (OpenAI Community)](https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683)
+- Retrieval Augmented Generation (RAG) and business applications (Bedrock, knowledge base)
+  - [RAG as a Service (Progress)](https://www.progress.com/agentic-rag/features/rag-as-a-service?utm_source=google&utm_medium=cpc&utm_campaign=rag-nb-search-en-APJ&utm_term=rag%20as%20a%20service%20platform&utm_id=23023435592&adgroupid=180689016410&network=g&ad_copy=&utm_content=&ad_group=&gad_source=1&gad_campaignid=23023435592&gbraid=0AAAAACYjgOi0Ud0DmAhrzGWAvQiOd1dts&gclid=CjwKCAjwlaTGBhANEiwAoRgXBTcmwgoAZn4hKYfDY_QBtWh-lusmqHw6l6bSMk5ocb6wyrCXh5pdIhoCLjYQAvD_BwE)
+  - [What is Retrieval Augmented Generation? (AWS)](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
+  - [Choosing the Right Service for Generative AI Applications (TechConnect)](https://techconnect.com.au/services-and-solutions/migrations-and-modernisation/?gad_source=1&gad_campaignid=22815183587&gbraid=0AAAAABe-RbZZ_ny5mg3YrvLJwvL6mfq38&gclid=CjwKCAjwlaTGBhANEiwAoRgXBRYZCg3ThzsQToRXoOVsiyBCDTE9lufU-uIBB9y9SA14gsk-Y6CZCBoCv4wQAvD_BwE)
+- AWS services for embeddings/vector databases (OpenSearch, Aurora, Neptune, DocumentDB, RDS for PostgreSQL)
+  - [What is a Vector Database? (AWS)](https://aws.amazon.com/what-is/vector-databases/)
+  - [Choosing the Right Service for Generative AI Applications (TechConnect)](https://techconnect.com.au/services-and-solutions/migrations-and-modernisation/?gad_source=1&gad_campaignid=22815183587&gbraid=0AAAAABe-RbZZ_ny5mg3YrvLJwvL6mfq38&gclid=CjwKCAjwlaTGBhANEiwAoRgXBY4CMlE0khPZf2DRYgfXqrkgACXls5gGwnM6Bv4lpxn3LzePEQzkQhoCivYQAvD_BwE)
+- Cost trade-offs for customization (pre-training, fine-tuning, in-context, RAG)
+  - [AWS Well-Architected ML Cost Optimization](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlcost-04.html)
+  - [What is Retrieval Augmented Generation? (AWS)](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
+- Role of agents (Agents for Bedrock)
+  - [AWS Bedrock Agents](https://aws.amazon.com/bedrock/agents/)
+  - [How Bedrock Agents Work (AWS Docs)](https://docs.aws.amazon.com/bedrock/latest/userguide/agents-how.html)
+
+### Task Statement 3.2: Prompt engineering techniques
+- Concepts/constructs (context, instruction, negative prompts, latent space)
+- Techniques (chain-of-thought, zero-shot, single-shot, few-shot, templates)
+- Benefits/best practices (quality, experimentation, guardrails, discovery, specificity, concision, multiple comments)
+- Risks/limitations (exposure, poisoning, hijacking, jailbreaking)
+
+### Task Statement 3.3: Training and fine-tuning foundation models
+- Key elements (pre-training, fine-tuning, continuous pre-training)
+- Fine-tuning methods (instruction tuning, domain adaptation, transfer learning, continuous pre-training)
+- Data preparation (curation, governance, size, labelling, representativeness, RLHF)
+
+### Task Statement 3.4: Evaluating foundation model performance
+- Evaluation approaches (human, benchmarks)
+- Metrics (ROUGE, BLEU, BERT Score)
+- Meeting business objectives (productivity, engagement, task engineering)
+
+# IMAGES
+![AIF-C01 Roadmap Page 75](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_075.jpg)
+![AIF-C01 Roadmap Page 76](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_076.jpg)
+![AIF-C01 Roadmap Page 77](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_077.jpg)
+![AIF-C01 Roadmap Page 78](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_078.jpg)
+![AIF-C01 Roadmap Page 79](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_079.jpg)
+![AIF-C01 Roadmap Page 80](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_080.jpg)
+![AIF-C01 Roadmap Page 81](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_081.jpg)
+![AIF-C01 Roadmap Page 82](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_082.jpg)
+![AIF-C01 Roadmap Page 83](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_083.jpg)
+![AIF-C01 Roadmap Page 84](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_084.jpg)
+![AIF-C01 Roadmap Page 85](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_085.jpg)
+![AIF-C01 Roadmap Page 86](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_086.jpg)
+![AIF-C01 Roadmap Page 87](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_087.jpg)
+![AIF-C01 Roadmap Page 88](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_088.jpg)
+![AIF-C01 Roadmap Page 89](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_089.jpg)
+![AIF-C01 Roadmap Page 90](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_090.jpg)
+![AIF-C01 Roadmap Page 91](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_091.jpg)
+![AIF-C01 Roadmap Page 92](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_092.jpg)
+![AIF-C01 Roadmap Page 93](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_093.jpg)
+![AIF-C01 Roadmap Page 94](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_094.jpg)
+![AIF-C01 Roadmap Page 95](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_095.jpg)
+![AIF-C01 Roadmap Page 96](./Images/Get+AIF-C01+Certified+-+Roadmap+To+Success+by+Vladimir+Raykov+v2%20(2)_Page_096.jpg)
